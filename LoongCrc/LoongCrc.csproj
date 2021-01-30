@@ -40,8 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\CrcAlgorithms.cs" />
     <Compile Include="Crc.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Core\Parameters.cs" />
+    <Compile Include="Core\CrcStdParameters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Extensions\UInt64Extensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
